@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+<!--      namespace：必须与对应的接口全类名一致     id:必须与对应接口的某个对应的方法名一致   -->  
+<mapper namespace="com.sys.management.mapper.MenuMapper">  
+      
+    <insert id="save" parameterType="MenuEntity">  
+        insert into t_menu(resourceGrade,accessPath,checked,delFlag,parentID,resourceCode,resourceDesc,resourceName,resourceOrder,resourceType) values(#{resourceGrade},#{accessPath},#{checked},#{delFlag},#{parentID},#{resourceCode},#{resourceDesc},#{resourceName},#{resourceOrder},#{resourceType})  
+        
+        
+    </insert>  
+      
+   <update id="update" parameterType="MenuEntity">  
+        update t_menu set resourceGrade=#{resourceGrade},accessPath#{accessPath},checked#{checked},delFlag#{delFlag},parentID#{parentID},resourceCode#{resourceCode},resourceDesc#{resourceDesc},resourceName#{resourceName},resourceOrder#{resourceOrder},resourceType#{resourceType} 
+        
+
+         where resourceID=#{resourceID}  
+    </update>  
+      
+    <delete id="delete" parameterType="int">  
+        delete from t_menu where resourceID=#{resourceID}  
+    </delete>  
+      
+     <!-- mybsits_config中配置的alias类别名,也可直接配置resultType为类路劲 -->    
+    <select id="findById" parameterType="int" resultType="MenuEntity">  
+        
+    select resourceID,resourceGrade,accessPath,checked,delFlag,parentID,resourceCode,resourceDesc,resourceName,resourceOrder,resourceType from t_menu where resourceID=#{resourceID}  
+    </select>  
+         <!-- mybsits_config中配置的alias类别名,也可直接配置resultType为类路劲 -->    
+    <select id="findByResourceType" parameterType="String" resultType="MenuEntity">  
+        
+    select resourceID,resourceGrade,accessPath,checked,delFlag,parentID,resourceCode,resourceDesc,resourceName,resourceOrder,resourceType from t_menu where resourceType=#{resourceType}  
+    </select> 
+    <select id="findAll" resultType="MenuEntity">  
+       
+     select resourceID,resourceGrade,accessPath,checked,delFlag,parentID,resourceCode,resourceDesc,resourceName,resourceOrder,resourceType from t_menu
+    </select>  
+      
+</mapper>  
