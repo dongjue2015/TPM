@@ -1,5 +1,0 @@
-INDEX VERSION 1.126
-F:\git\TPM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1941814321.index
-\TPM\src
-F:\git\TPM\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2216488044.index
-\TPM\src

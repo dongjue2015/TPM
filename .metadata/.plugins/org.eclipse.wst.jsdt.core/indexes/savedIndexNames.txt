@@ -1,2 +1,0 @@
-INDEX VERSION 1.122+F:\git\TPM\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2046593299.index
