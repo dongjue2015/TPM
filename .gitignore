@@ -15,11 +15,21 @@ bin/
 /Test
 
 
-build/
+# Eclipse Project files
+.classpath
+.project
+.settings/
+ 
 bin/
-TPM/
-.classpath
-.project
-TPM/
-.classpath
-.project
+gen/
+local.properties
+ 
+.DS_Store
+Thumbs.db
+ 
+*.bak
+*.tem
+*.temp
+#.swp
+*.*~
+~*.*
