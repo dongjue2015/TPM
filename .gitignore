@@ -13,3 +13,6 @@ bin/
 /Servers
 /.git
 /Test
+TPM/
+.classpath
+.project
