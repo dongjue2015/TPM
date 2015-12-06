@@ -10,6 +10,6 @@ bin/
 
 #ignore metadata
 /.metadata
-/.Servers
+/Servers
 /.git
 /Test
