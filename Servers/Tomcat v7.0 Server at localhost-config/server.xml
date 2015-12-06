@@ -132,7 +132,7 @@
       
       
       
-      </Host>
+      <Context docBase="TPM" path="/TPM" reloadable="true" source="org.eclipse.jst.jee.server:TPM"/></Host>
     </Engine>
   </Service>
 </Server>
