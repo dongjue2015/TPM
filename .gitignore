@@ -16,8 +16,8 @@ bin/
 
 
 # Eclipse Project files
-#*.classpath
-#*.project
+*.classpath
+*.project
 *.settings/
  
 bin/
