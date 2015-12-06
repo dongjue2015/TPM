@@ -13,7 +13,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		/*
-		 * 提交
+		 * click event
 		 */
 		$("#submitbutton").click(function() {
 			if(validateForm()){
