@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ElectricAppliance {
 
 	
-	@RequestMapping(value = "airCompressorStation/electricAppliance.do", method = RequestMethod.GET)
+	@RequestMapping(value = "airCompressorStationelectricAppliance.do", method = RequestMethod.GET)
 	public String login() throws Exception {
 
 		return "/list";

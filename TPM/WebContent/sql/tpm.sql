@@ -67,8 +67,8 @@ INSERT INTO `t_menu` VALUES ('2', '2', '', 'false', '0', '1', '', '', '空压站
 INSERT INTO `t_menu` VALUES ('3', '2', '', 'false', '0', '1', '', '', '制冷制设备(卷烟区)', '0', 'ServiceNode');
 INSERT INTO `t_menu` VALUES ('4', '2', '', 'false', '0', '1', '', '', '制冷制设备(办公区)', '0', 'ServiceNode');
 INSERT INTO `t_menu` VALUES ('5', '2', '', 'false', '0', '1', '', '', '中水站设备', '0', 'ServiceNode');
-INSERT INTO `t_menu` VALUES ('6', '2', 'airCompressorStation/electricAppliance.do', 'false', '0', '1', '', '', '抽水组设备', '0', 'ServiceNode');
-INSERT INTO `t_menu` VALUES ('7', '3', 'airCompressorStation/controlSystem.do', 'false', '0', '2', '', '', '电器设备', '0', 'ServiceNode');
+INSERT INTO `t_menu` VALUES ('6', '2', 'airCompressorStationelectricAppliance.do', 'false', '0', '1', '', '', '抽水组设备', '0', 'ServiceNode');
+INSERT INTO `t_menu` VALUES ('7', '3', 'airCompressorStationcontrolSystem.do', 'false', '0', '2', '', '', '电器设备', '0', 'ServiceNode');
 INSERT INTO `t_menu` VALUES ('8', '3', '', 'false', '0', '2', '', '', '控制系统', '0', 'ServiceNode');
 INSERT INTO `t_menu` VALUES ('9', '3', '', 'false', '0', '2', '', '', '机器设备', '0', 'ServiceNode');
 INSERT INTO `t_menu` VALUES ('10', '2', '', 'false', '0', '1', '', '', '用户管理', '0', 'SystemNode');

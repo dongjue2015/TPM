@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.sys.management.model.MenuEntity;
 import com.sys.management.model.UserEntity;
@@ -56,7 +55,7 @@ public class LoginController {
 		return "/login";
 	}
 
-	// {"accessPath":"loupanchart.html","checked":false,"delFlag":0,"parentID":3,"resourceCode":"","resourceDesc":"","resourceGrade":3,"resourceID":8,"resourceName":"³Ð×â·½¹ÜÀí","resourceOrder":0,"resourceType":""}
+	// {"accessPath":"loupanchart.html","checked":false,"delFlag":0,"parentID":3,"resourceCode":"","resourceDesc":"","resourceGrade":3,"resourceID":8,"resourceName":"ï¿½ï¿½ï¿½â·½ï¿½ï¿½ï¿½ï¿½","resourceOrder":0,"resourceType":""}
 	@RequestMapping(value = "menuView.do", method = RequestMethod.POST)
 	@ResponseBody
 	public String menuView(HttpServletRequest request, ModelMap modelMap) throws Exception {
