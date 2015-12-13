@@ -207,7 +207,7 @@
 				<div class="ui_tb">
 					<table class="table" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
 						<tr>
-							<th width="30"><input type="checkbox" id="all" onclick="selectOrClearAllCheckbox(this);" />
+							<th width="20"><input type="checkbox" id="all" onclick="selectOrClearAllCheckbox(this);" />
 							</th>
 							<th>序号</th>
 							<th>设备编号</th>
@@ -379,10 +379,22 @@
 						转到第<input type="text" id="jumpNumTxt" class="ui_input_txt01" />页
 							 <input type="button" class="ui_input_btn01" value="跳转" onclick="jumpInputPage(9);" />
 					</div>
+					
+					
+			
 				</div>
 			</div>
 		</div>
 	</form>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='utf-8'></script></div>
+	<div  style=" margin-left: 20px; margin-top: 10px; height: 58px;">
+						
+							<input type="button" value="设备管理" class="ui_input_btn01" />
+							<input type="button" value="设备维护" class="ui_input_btn01" />
+							<input type="button" value="设备保养" class="ui_input_btn01"
+								onclick="jumpNormalPage(2);" />
+							<input type="" value="安全管理" class="ui_input_btn01"
+								onclick="" />
+						
+	</div>
 </body>
 </html>
