@@ -230,7 +230,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="views/edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -247,7 +247,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -264,7 +264,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -280,7 +280,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -296,7 +296,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -312,7 +312,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -328,7 +328,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
@@ -344,7 +344,7 @@
 								<td>TPM200</td>
 								<td>TPM200</td>
 								<td>
-									<a href="house_edit.html?fyID=14458579642011" class="edit">编辑</a> 
+									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
 									<a href="javascript:del('14458579642011');">删除</a>
 									<a href="javascript:del('14458579642011');">详情</a>
 								</td>
