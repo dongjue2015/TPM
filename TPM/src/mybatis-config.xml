@@ -5,9 +5,12 @@
 		<typeAlias alias="UserEntity" type="com.sys.management.model.UserEntity" />
 
 		<typeAlias alias="MenuEntity" type="com.sys.management.model.MenuEntity" />
+		
+	    <typeAlias alias="EquipmentEntity" type="com.tpm.management.model.EquipmentEntity" />
 	</typeAliases>
 	<mappers>
 		<mapper resource="com/sys/management/mapping/UserMapper.xml" />
 		<mapper resource="com/sys/management/mapping/MenuMapper.xml" />
+		<mapper resource="com/tpm/management/mapping/EquipmentMapper.xml" />
 	</mappers>
 </configuration>    

@@ -1,5 +1,9 @@
 package com.tpm.management.service;
 
-public interface ElectricApplianceService {
+import java.util.List;
 
+import com.tpm.management.model.EquipmentEntity;
+
+public interface ElectricApplianceService {
+	  List<EquipmentEntity>  findALL(String equipmentType) throws Exception;
 }
