@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-aop/3.2.8.RELEASE/4d721145f41cf94561dd73accfb47969ea2b98bc/spring-aop-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-aop/3.2.8.RELEASE/90e7924ef58621a4c07c81279e013d9a11d41789/spring-aop-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/decd76e2c461157804473468bbdc6b8eb6d6121b/logback-classic-1.1.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.2/b316e9737eea25e9ddd6d88eaeee76878045c6b2/logback-classic-1.1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/1952f91d84016a39e31346c9d18bd8c9c4a128a/javax.servlet-api-3.0.1-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.0.1/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2/78bc1457a1fc2f8a7037cd2b247062ab3daac212/jsp-api-2.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.servlet.jsp/jsp-api/2.2/5bf0c26ef77df58c7c28be2d9d52246f2b437a54/jsp-api-2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/a55382e12d39db7a06d782ec4171f39d5d6c5369/jsoup-1.8.1-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.1/1eb6690b0c629d7000c77a72df5e822fb974f521/jsoup-1.8.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.5/9351922abd5e659dcbacb1d38b81d8069bac797b/httpclient-4.3.5-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.5/9783d89b8eea20a517a4afc5f979bd2882b54c44/httpclient-4.3.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/d702a870528c46a04e5c38d39372a885bd6f4118/okio-1.3.0-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/ffc61d1f2ba2f6edc4df2224fa65725499039a5d/core-3.2.0-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.google.zxing/core/3.2.0/e019d15a13a9786f881141d2df6654b8510bce8b/core-3.2.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/ch.ethz.ganymed/ganymed-ssh2/262/104a6c11d11ec4924b62978ade803a4dbd9001d4/ganymed-ssh2-262-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/ch.ethz.ganymed/ganymed-ssh2/262/7761dc665d0f6993dc846d914214fb93291e2bdf/ganymed-ssh2-262.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/4c9b237b15d6a42e88bb556d9c5e0f167043c0ad/okhttp-2.3.0-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/b98251e078d1809f889324fe90dbc4996919c02a/gson-2.4-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.2.8.RELEASE/3127fad826847b9fcd5e57c2b0108be00c68f7ca/spring-webmvc-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-webmvc/3.2.8.RELEASE/b23357096216fee7fa658c3e0a28a4574d4d3a90/spring-webmvc-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.1/a1fa20f7f3ad210f4b2eb51b63be3f0273be263a/commons-fileupload-1.3.1-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-fileupload/commons-fileupload/1.3.1/c621b54583719ac0310404463d6d99db27e1052c/commons-fileupload-1.3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/8d30b90ae8bda4fbac8363161c8a9b5a99e23baf/commons-lang3-3.1-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.1/905075e6c80f206bbe6cf1e809d2caa69f420c76/commons-lang3-3.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.6/145dec81a48434610eea4fbd6df54d6a763c9fec/fastjson-1.2.6-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.alibaba/fastjson/1.2.6/b74bde9cceb2f9ec1077a9c7c3a007c251531ba6/fastjson-1.2.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.0.2/99fd3392e0bffcd1634c3588c487ee7cdbfd5d94/mongodb-driver-3.0.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.mongodb/mongodb-driver/3.0.2/5570fd07f9c060cd9f661e4994d06ff499ad6dee/mongodb-driver-3.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-lgpl/1.9.9/e85188fcd85dd44a9d3d2c1025d4a818896105d6/jackson-mapper-lgpl-1.9.9-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-lgpl/1.9.9/828d9494686990ce8ad3cf9f7384e4406629952/jackson-mapper-lgpl-1.9.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.mail/mail/1.4.6/8ddcd26291a284821bc93a342733bea80cc65db7/mail-1.4.6-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.mail/mail/1.4.6/383bdbd7b4bc3e7960370db219f883b4062fc1ca/mail-1.4.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.qiniu/qiniu-java-sdk/7.0.7/abbd61ed2667517e2e2270d0c969e0b4cbbc9d87/qiniu-java-sdk-7.0.7-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/com.qiniu/qiniu-java-sdk/7.0.7/50459915bab735e6b8cd0dcb563aeaf315b861eb/qiniu-java-sdk-7.0.7.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/redis.clients/jedis/2.7.2/55255752ddf7daf9f7fb26a54eec58c00d6a4dfa/jedis-2.7.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/redis.clients/jedis/2.7.2/f2f47f1025ea5090263820e8598e56eb47f5c88a/jedis-2.7.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/502e1c764542fe747896c1dc04f023acfe0e5cbc/logback-core-1.1.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.2/2d23694879c2c12f125dac5076bdfd5d771cc4cb/logback-core-1.1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.6/97bb93c1badeae97a3d37e3c902df2985ee3de34/slf4j-api-1.7.6-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.6/562424e36df3d2327e8e9301a76027fca17d54ea/slf4j-api-1.7.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/4809f38359edeea9487f747e09aa58ec8d3a54c5/httpcore-4.3.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.8.RELEASE/a5e9c73bc495c5a3f8bf79281cbb70116d45aa79/spring-beans-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-beans/3.2.8.RELEASE/7aa7d1192ad7acc4b5ced07d44a1cdc4e3a377b9/spring-beans-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-context/3.2.8.RELEASE/97b8a68a61dd53b54202acdf9e612765805a8bea/spring-context-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-context/3.2.8.RELEASE/7edfc6e4283b549504793682cab1f8c37d9f1890/spring-context-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.8.RELEASE/f4c55592652e59ffdea9e37ee71998402050d11/spring-core-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-core/3.2.8.RELEASE/64b9b731decc74403eb85163278659d91c300584/spring-core-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-expression/3.2.8.RELEASE/2bd946d2fd53ca8774a107f54a9bce1098fbf140/spring-expression-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-expression/3.2.8.RELEASE/becdd45da4986fb6d8936188f90dc869b6c237a1/spring-expression-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-web/3.2.8.RELEASE/e15398d5111f79137a37e0b7de32e515debf3d2b/spring-web-3.2.8.RELEASE-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.springframework/spring-web/3.2.8.RELEASE/799ae0503da5a9f980fecd38c9e6b23a71a406c8/spring-web-3.2.8.RELEASE.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.mongodb/bson/3.0.2/86dacbef9cba0f60d315323eb0bf6ef3cd6af7f/bson-3.0.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.mongodb/bson/3.0.2/6e2a151a7c61ef838e4d65dee590ac9cef43d0d3/bson-3.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-io/commons-io/2.2/8d6b98f21262995489a8418fff8da992d7e25c1e/commons-io-2.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/commons-io/commons-io/2.2/83b5b8a7ba1c08f9e8c8ff2373724e33d3c1e22a/commons-io-2.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-lgpl/1.9.9/2a6c597b4f08d789c478b4d4305ebc888c9836fd/jackson-core-lgpl-1.9.9-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-lgpl/1.9.9/bdcbefd4596de9e0f44da9751fbae1a52c17704c/jackson-core-lgpl-1.9.9.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.0.2/250d764fe6cb372c46b2fb3185c8164a7c9d6dfb/mongodb-driver-core-3.0.2-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/3.0.2/3ec1fcf5332941bf3cdf175753cd9ffcc75f78d7/mongodb-driver-core-3.0.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.3/9e03327e766c3d16ed34a617818ab082192e83a7/commons-pool2-2.3-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/org.apache.commons/commons-pool2/2.3/62a559a025fd890c30364296ece14643ba9c8c5b/commons-pool2-2.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.activation/activation/1.1/3697e9f67a2ed7ac5f589cff30f21173299440/activation-1.1-sources.jar" kind="lib" path="F:/gradle-2.5/repository;/caches/modules-2/files-2.1/javax.activation/activation/1.1/e6cb541461c2834bdea3eb920f1884d1eb508b50/activation-1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="../"/>
+		</attributes>
+	</classpathentry>
+</classpath>
