@@ -1,0 +1,14 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -16,9 +16,9 @@
+ 
+ 
+ # Eclipse Project files
+-*.classpath
+-*.project
+-*.settings/
++#*.classpath
++#*.project
++#*.settings/
+  
+ bin/
+ gen/
