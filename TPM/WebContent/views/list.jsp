@@ -128,8 +128,8 @@
 	}
 
 	/** 普通跳转 **/
-	function jumpNormalPage(page){
-		$("#submitForm").attr("action", "house_list.html?page=" + page).submit();
+	function jumpNormalPage(page,pageRow){
+		$("#submitForm").attr("action", "airCompressorStationelectricAppliance.do?page=" + page+"&pageRow="+pageRow).submit();
 	}
 	
 	/** 输入页跳转 **/
@@ -207,58 +207,9 @@
 			</div>
 			<div class="ui_content">
 				<div class="ui_tb">
-					<table class="table" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
-						<tr>
-							<th width="20"><input type="checkbox" id="all" onclick="selectOrClearAllCheckbox(this);" />
-							</th>
-							<th>序号</th>
-							<th>设备编号</th>
-							<th>设备名称</th>
-							<th>规格型号</th>
-							<th>出厂厂家</th>
-							<th>使用地点</th>
-							<th>种类</th>
-							<th>录入时间</th>
-							<th>操作</th>
-						</tr>
-						<c:forEach items="${list}" var="a">
-							    <tr>
-								<td><input type="checkbox" name="IDCheck" value="14458579642011" class="acb" /></td>
-								<td>1</td>
-								<td>${a.encodingEquipment}</td>
-								<td>${a.encodingEquipment}</td>
-								<td>${a.encodingEquipment}</td>
-								<td>${a.encodingEquipment}</td>
-								<td>${a.encodingEquipment}</td>
-								<td>${a.encodingEquipment}</td>
-								<td>${a.encodingEquipment}</td>
-								<td>
-									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
-									<a href="javascript:del('14458579642011');">删除</a>
-									<a href="javascript:del('14458579642011');">详情</a>
-								</td>
-							</tr>
-							</c:forEach>
-							
-							
-								<tr>
-								<td><input type="checkbox" name="IDCheck" value="14458579642011" class="acb" /></td>
-								<td>1</td>
-								<td>TPM200</td>
-								<td>TPM200</td>
-								<td>TPM200</td>
-								<td>TPM200</td>
-								<td>TPM200</td>
-								<td>TPM200</td>
-								<td>TPM200</td>
-								<td>
-									<a href="edit.jsp?fyID=14458579642011" class="edit">编辑</a> 
-									<a href="javascript:del('14458579642011');">删除</a>
-									<a href="javascript:del('14458579642011');">详情</a>
-								</td>
-							</tr>
-							
-					</table>
+					<iframe  src="airCompressorStationelectricApplianceSearch.do" style="width: 95%;height: 95%"></iframe>
+					
+					
 				</div>
 				<div class="ui_tb_h30">
 					<div class="ui_flt" style="height: 30px; line-height: 30px;">
@@ -274,11 +225,12 @@
 						<!--    如果是第一页，则只显示下一页、尾页 -->
 						
 							<input type="button" value="首页" class="ui_input_btn01" />
-							<input type="button" value="上一页" class="ui_input_btn01" />
+							<input type="button" value="上一页" class="ui_input_btn01"
+							onclick="jumpNormalPage(${page-1},8);" />
 							<input type="button" value="下一页" class="ui_input_btn01"
-								onclick="jumpNormalPage(2);" />
+								onclick="jumpNormalPage(${page+1},8);" />
 							<input type="button" value="尾页" class="ui_input_btn01"
-								onclick="jumpNormalPage(9);" />
+								onclick="jumpNormalPage(9,8);" />
 						
 						
 						

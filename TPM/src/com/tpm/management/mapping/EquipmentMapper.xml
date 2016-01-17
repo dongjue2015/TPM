@@ -18,10 +18,10 @@
 		,encoding_equipment,number_equipment,name_equipment,number_materiel,factory,use_location,kind_equipment,create_userName,create_userNO,create_time,last_modify_userName,last_modify_userNO,last_modify_time
 		from tpm_equipment_info WHERE id=${id}
 	</select>
-	<select id="findAll" resultType="EquipmentEntity">
+	<select id="findAll" resultType="EquipmentEntity" parameterType="map">
 		SELECT id
 		,encoding_equipment,number_equipment,name_equipment,number_materiel,factory,use_location,kind_equipment,create_userName,create_userNO,create_time,last_modify_userName,last_modify_userNO,last_modify_time
-		from tpm_equipment_info
+		from tpm_equipment_info WHERE id= ${id} ;
 	</select>
 
 </mapper>  
